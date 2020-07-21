@@ -16,9 +16,11 @@ Now, you're ready to start fingerprint restoration.
 
 ```
 $ git clone git@github.com:tuyanglin/Fingerprint-Restoration.git
-$ cd Data
+$ cd Code
 $ cd preprocessing
 $ python preprocess.py imagepath outputpath
 $ cd ../reconstruction
 $ python adjust_fitting.py preprocess_image_path outputpath
 ```
+## Data
+The data folder includes SourceAFIS synthetic dataset and FVC2004 fingerprint dataset, each of which includes the original incomplete fingerprint and the fingerprint repaired by our algorithm
